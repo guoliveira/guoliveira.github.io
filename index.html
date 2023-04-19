@@ -19,9 +19,33 @@
 			text-align: center;
 			margin: 50px 0;
 		}
+		.nav {
+			background-color: #333;
+			overflow: hidden;
+		}
+		.nav a {
+			float: left;
+			color: #f2f2f2;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-size: 17px;
+		}
+		.nav a:hover {
+			background-color: #ddd;
+			color: black;
+		}
+		.nav a.active {
+			background-color: #4CAF50;
+			color: white;
+		}
 	</style>
 </head>
 <body>
+	<div class="nav">
+		<a href="#medium">Medium Articles</a>
+		<a href="#youtube">Youtube Videos</a>
+	</div>
 	<h1>From Newbie To Proficient</h1>
 	<img src="images/logo.PNG" alt="Logo" class="logo">
 	<div class="text">
